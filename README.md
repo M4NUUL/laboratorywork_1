@@ -1,1 +1,0 @@
-# laboratorywork_1
