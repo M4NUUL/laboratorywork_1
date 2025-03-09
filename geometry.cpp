@@ -20,5 +20,6 @@ void Circle(){
 }
 
 int main(){
+    Circle();
     
 }
