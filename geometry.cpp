@@ -21,5 +21,5 @@ void Circle(){
 
 int main(){
     Circle();
-    
+    return 0;
 }
