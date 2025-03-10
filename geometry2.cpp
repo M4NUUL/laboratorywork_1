@@ -4,10 +4,10 @@
 using namespace std;
 
 int main(){
-    cout << "Введите длину прямоугольника; ";
+    cout << "Введите длину прямоугольника: ";
     int length_rectangle; 
     cin >> length_rectangle;
-    cout << "Введиет ширину прямоугольника; ";
+    cout << "Введиет ширину прямоугольника: ";
     int width_rectangle;
     cin >> width_rectangle;
     int perimetr = length_rectangle*2+width_rectangle*2;
