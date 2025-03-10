@@ -12,6 +12,20 @@ void Trap()
     cout<<"Введите длину боковых сторон"<<endl;
     cin>>c;
     cin>>d;
+    if (a<=0 || b<=0|| c<=0|| d<=0)
+    {
+        cout<<"Стороны не могут быть меньше нулья"<<endl;
+        return ;
+    }
+    if (a+b+c>d && a+b+d>c && a+c+d>b && c+b+d>a)
+    {
+        
+    }
+    else
+    {
+        cout<<"Такой трапеции быть не может"<<endl;
+        return ;
+    }
     k=(b-a)/2;
     h=sqrt(c*c-k*k);
     s=(a+b)*h/2;
