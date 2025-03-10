@@ -1,3 +1,4 @@
+#include <iostream>
 #include <cmath>
 
 using namespace std;
@@ -12,9 +13,9 @@ int main(){
     int perimetr = length_rectangle*2+width_rectangle*2;
     int square = length_rectangle*width_rectangle;
     float diag = sqrt(length_rectangle*length_rectangle+width_rectangle*width_rectangle);
-    cout << "Диагональ; " << diag <<endl;
-    cout << "Площадь; " << square <<endl;
-    cout << "Периметр; " << perimetr <<endl;
+    cout << "Диагональ; " << diag << endl;
+    cout << "Площадь; " << square << endl;
+    cout << "Периметр; " << perimetr << endl;
     
     return 0;
 }
