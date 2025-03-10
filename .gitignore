@@ -1,0 +1,6 @@
+#ignore exe file
+*.exe
+
+#ignore log file
+
+*.log
